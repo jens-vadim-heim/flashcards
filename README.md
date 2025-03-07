@@ -1,4 +1,4 @@
-# Flashy cards (WORK IN PROGRESS)
+# Flashcards (WORK IN PROGRESS)
 
 A web app that allows the user to create flashcards and practice with them in a study mode.
 
