@@ -27,6 +27,7 @@ input{
   outline: none;
   border: 1px solid grey;
   flex: 1 1 100%;
+  border-bottom: none;
 }
 
 button{
@@ -37,11 +38,11 @@ button{
 }
 
 .add-flashcard-btn{
-  background-color: rgb(42, 255, 149);
+  background-color: rgb(0, 255, 136);
 }
 
 .clear-flashcards-btn{
-  background-color: rgb(255, 70, 70);
+  background-color: rgb(255, 133, 133);
 }
 
 .flashcard-container{
