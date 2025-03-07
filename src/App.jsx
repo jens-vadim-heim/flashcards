@@ -45,7 +45,7 @@ function App() {
   
   return (
     <div className="container">
-      <h1>Flashy cards</h1>
+      <h1>Flashcards</h1>
       <button 
             className='study-mode-btn' 
             onClick={toggleStudyMode}>
