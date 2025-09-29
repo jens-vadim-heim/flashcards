@@ -53,7 +53,7 @@ export default function DeckView({
           </button>
         </div>
       </div>
-      <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 flex-1 overflow-y-auto">
+      <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 overflow-y-auto">
         <button
           className="rounded p-4 bg-gray-600 shadow-lg cursor-pointer transform transition duration-200 hover:scale-105 hover:bg-gray-700 text-xl"
           onClick={openAddCardModal}
