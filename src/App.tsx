@@ -232,7 +232,7 @@ export default function App() {
   const selectedDeck = decks.find((d) => d.id === selectedDeckId) ?? null;
 
   return (
-    <div className="h-screen bg-gray-700 flex flex-col text-white">
+    <div className="min-h-[100dvh] bg-gray-700 flex flex-col text-white">
       <Header reset={goToMain}></Header>
 
       <main className="flex-1 bg-gray-500 p-4 overflow-y-auto">
