@@ -4,7 +4,7 @@ interface HeaderProps {
 
 export default function Header({ reset }: HeaderProps) {
   return (
-    <header className="container mx-auto p-4 flex justify-between items-center">
+    <header className="container mx-auto p-4 flex justify-between items-center sticky top-0 bg-gray-700">
       <span
         className="text-3xl font-bold cursor-pointer hover:text-gray-400 transition duration-300"
         onClick={reset}
